@@ -1,0 +1,76 @@
+.form__input--text input[type="email"],
+.form__button-submit {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+body {
+  background-color: #89685522;
+}
+
+.auth-form {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.auth-form__heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #6b4e3e9a;
+  font-size: 18px;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form__content {
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 30px 0px;
+  width: 50%;
+  border: 1px solid rgba(132, 97, 53, 0.376);
+  border-radius: 5px;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 30px 10vw;
+}
+
+.form__error {
+  height: 20px;
+  color: #ff0000;
+  text-align: left;
+}
+
+input {
+  background-color: rgba(127, 119, 110, 0.099);
+  border: none;
+  height: 40px;
+  border-radius: 3px;
+  padding-left: 30px;
+  outline: none;
+  color: rgba(132, 97, 53, 0.472);
+  width: 30vw;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: rgba(132, 97, 53, 0.472);
+}
+
+.form__btn {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form__btn-auth {
+  padding: 5px 20px;
+  border: none;
+  background: #6b4e3ed8;
+  color: #fff;
+  cursor: pointer;
+}

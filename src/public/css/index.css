@@ -1,0 +1,209 @@
+.form__input--text input[type="email"],
+.form__input--tel input[type="text"],
+.form__button-submit {
+  font-family: 'Playfair Display', 'メイリオ', serif;
+}
+
+.contact-form__content {
+  margin: 0 auto;
+  padding: 30px 0px;
+  max-width: 70%;
+}
+
+.contact-form__heading {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #6b4e3ed8;
+  font-size: 18px;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form {
+  margin: 0 auto;
+  width: 1230px;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form__group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+th.form__group-title {
+  width: 250px;
+  text-align: left;
+  vertical-align: top;
+  height: 60px;
+  padding: 10px 0px;
+  color: #896855be;
+}
+
+.form__label--item {
+  margin: 0;
+}
+
+span {
+  font-weight: 400;
+}
+
+td {
+  color: #896855be;
+}
+
+.form__label--required {
+  margin: 0;
+  padding: 0;
+  color: #e8adab;
+}
+
+td.form__group-content {
+  width: 600px;
+}
+
+.form__error {
+  height: 20px;
+  color: #ff0000;
+  text-align: left;
+}
+
+.form__input--name {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input--radio {
+  padding-left: 15px;
+}
+
+input {
+  background-color: rgba(127, 119, 110, 0.099);
+  border: none;
+  height: 40px;
+  border-radius: 3px;
+  padding-left: 30px;
+  outline: none;
+  color: rgba(132, 97, 53, 0.472);
+  margin: 0;
+}
+
+input::placeholder {
+  color: rgba(132, 97, 53, 0.472);
+}
+
+.form__input--name>input {
+  width: 280px;
+  height: 40px;
+}
+
+label {
+  padding-right: 30px;
+}
+
+input[type=radio] {
+  appearance: none;
+  background-color: white;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  vertical-align: -2px;
+  border: 1px solid #896855be;
+  outline: none;
+}
+
+input[type=radio]:checked {
+  background-color: #896855be;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  vertical-align: -2px;
+  border: none;
+  outline: none;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+  width: 600px;
+}
+
+.form__input--tel {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input--tel>input {
+  margin: 0;
+  width: 170px;
+  padding: 0;
+  text-align: center;
+}
+
+.form__input--pulldown {
+  position: relative;
+  width: 300px;
+}
+
+.form__input--pulldown::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-top: 12px solid rgba(132, 97, 53, 0.472);
+  border-bottom: 0;
+  pointer-events: none;
+}
+
+select {
+  appearance: none;
+  color: #896855be;
+  width: 300px;
+  height: 40px;
+  background-color: rgba(127, 119, 110, 0.099);
+  border: none;
+  border-radius: 3px;
+  padding-left: 30px;
+  outline: none;
+  cursor: pointer;
+  option[value=""] {display: none;}
+}
+
+select:invalid {
+  color: rgba(132, 97, 53, 0.472);
+}
+
+.form__input--textarea textarea {
+  height: 180px;
+  appearance: none;
+  color: #896855be;
+  background-color: rgba(127, 119, 110, 0.099);
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 15px 30px;
+}
+
+.form__button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form__button-submit {
+  padding: 10px;
+  width: 120px;
+  border: none;
+  background: #6b4e3ed8;
+  color: #fff;
+  cursor: pointer;
+}
